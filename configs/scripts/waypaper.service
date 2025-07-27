@@ -1,0 +1,7 @@
+# This is a timer for auto changing wallpapers every 30 minutes
+[Unit]
+Description=Set a random wallpaper with waypaper
+
+[Service]
+Type=oneshot
+ExecStart=waypaper --random
